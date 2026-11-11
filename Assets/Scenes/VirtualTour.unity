@@ -475,8 +475,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd85de4eb37d3d644920637ae027cc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VirtualTour
-  SkyMaterial: {fileID: 2100000, guid: 6b363445f35a32948816602fb3b17020, type: 2}
+  skyMaterial: {fileID: 2100000, guid: 6b363445f35a32948816602fb3b17020, type: 2}
+  hotspotPrefab: {fileID: 832462695433784053, guid: 719bb3da4f84b5a4ea40f939a83d96c5, type: 3}
   currentSpotNumber: 2
+  connections:
+  - point: 2
+    angle: -30
+    neighbor: 29
+  - point: 29
+    angle: 0
+    neighbor: 2
+  - point: 29
+    angle: 180
+    neighbor: 30
+  - point: 30
+    angle: 0
+    neighbor: 29
 --- !u!4 &1492637176
 Transform:
   m_ObjectHideFlags: 0
