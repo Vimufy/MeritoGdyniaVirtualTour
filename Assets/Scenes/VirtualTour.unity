@@ -568,7 +568,7 @@ MonoBehaviour:
     neighbor: P13
   - point: P15
     angle: -90
-    neighbor: F10
+    neighbor: F9
   - point: P15
     angle: 180
     neighbor: P16
@@ -581,24 +581,72 @@ MonoBehaviour:
   - point: P17
     angle: 0
     neighbor: P16
-  - point: 
+  - point: F1
+    angle: 90
+    neighbor: F2
+  - point: F1
     angle: 0
-    neighbor: 
-  - point: 
+    neighbor: P9
+  - point: F2
+    angle: -90
+    neighbor: F1
+  - point: F2
     angle: 0
-    neighbor: 
-  - point: 
+    neighbor: F3
+  - point: F2
+    angle: 180
+    neighbor: F5
+  - point: F3
+    angle: 180
+    neighbor: F2
+  - point: F3
     angle: 0
-    neighbor: 
-  - point: 
+    neighbor: F4
+  - point: F4
+    angle: 180
+    neighbor: F3
+  - point: F5
     angle: 0
-    neighbor: 
-  - point: 
+    neighbor: F2
+  - point: F5
+    angle: 180
+    neighbor: F6
+  - point: F6
     angle: 0
-    neighbor: 
-  - point: 
+    neighbor: F5
+  - point: F6
+    angle: 180
+    neighbor: F7
+  - point: F7
     angle: 0
-    neighbor: 
+    neighbor: F6
+  - point: F7
+    angle: 180
+    neighbor: F8
+  - point: F8
+    angle: 0
+    neighbor: F7
+  - point: F8
+    angle: -90
+    neighbor: F9
+  - point: F8
+    angle: 180
+    neighbor: F10
+  - point: F9
+    angle: 90
+    neighbor: F8
+  - point: F9
+    angle: 180
+    neighbor: P15
+  - point: F10
+    angle: 0
+    neighbor: F8
+  - point: F10
+    angle: 180
+    neighbor: F11
+  - point: F11
+    angle: 0
+    neighbor: F10
 --- !u!4 &1492637176
 Transform:
   m_ObjectHideFlags: 0
