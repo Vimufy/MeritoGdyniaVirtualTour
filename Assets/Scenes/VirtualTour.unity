@@ -206,13 +206,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -477,110 +477,128 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VirtualTour
   skyMaterial: {fileID: 2100000, guid: 6b363445f35a32948816602fb3b17020, type: 2}
   hotspotPrefab: {fileID: 832462695433784053, guid: 719bb3da4f84b5a4ea40f939a83d96c5, type: 3}
-  currentSpotNumber: 2
+  currentSpotNumber: P1
   connections:
-  - point: 2
-    angle: -30
-    neighbor: 29
-  - point: 29
-    angle: 0
-    neighbor: 2
-  - point: 29
+  - point: P1
     angle: 180
-    neighbor: 30
-  - point: 40
+    neighbor: P2
+  - point: P2
     angle: 0
-    neighbor: 29
-  - point: 2
-    angle: 120
-    neighbor: 28
-  - point: 28
-    angle: -50
-    neighbor: 2
-  - point: 2
-    angle: 70
-    neighbor: 27
-  - point: 27
+    neighbor: P1
+  - point: P2
+    angle: 180
+    neighbor: P3
+  - point: P3
     angle: 0
-    neighbor: 2
-  - point: 27
-    angle: 100
-    neighbor: 1
-  - point: 1
+    neighbor: P2
+  - point: P3
+    angle: -90
+    neighbor: P4
+  - point: P3
+    angle: 90
+    neighbor: P5
+  - point: P4
+    angle: 90
+    neighbor: P3
+  - point: P5
+    angle: -90
+    neighbor: P3
+  - point: P5
+    angle: 90
+    neighbor: P6
+  - point: P6
+    angle: -90
+    neighbor: P5
+  - point: P6
+    angle: 90
+    neighbor: P7
+  - point: P7
+    angle: -90
+    neighbor: P6
+  - point: P7
+    angle: 180
+    neighbor: P8
+  - point: P8
     angle: 0
-    neighbor: 27
-  - point: 1
-    angle: 100
-    neighbor: 26
-  - point: 26
+    neighbor: P7
+  - point: P8
+    angle: 180
+    neighbor: P9
+  - point: P9
     angle: 0
-    neighbor: 1
-  - point: 26
-    angle: 100
-    neighbor: 25
-  - point: 25
+    neighbor: P8
+  - point: P9
+    angle: -90
+    neighbor: F1
+  - point: P9
+    angle: 180
+    neighbor: P10
+  - point: P10
     angle: 0
-    neighbor: 26
-  - point: 25
-    angle: 100
-    neighbor: 24
-  - point: 24
+    neighbor: P9
+  - point: P10
+    angle: 180
+    neighbor: P11
+  - point: P11
     angle: 0
-    neighbor: 25
-  - point: 24
-    angle: -50
-    neighbor: 12
-  - point: 24
-    angle: 100
-    neighbor: 22
-  - point: 22
+    neighbor: P10
+  - point: P11
+    angle: 180
+    neighbor: P12
+  - point: P12
     angle: 0
-    neighbor: 24
-  - point: 22
-    angle: 100
-    neighbor: 21
-  - point: 21
+    neighbor: P11
+  - point: P12
+    angle: 180
+    neighbor: P13
+  - point: P13
     angle: 0
-    neighbor: 22
-  - point: 21
-    angle: 100
-    neighbor: 20
-  - point: 20
+    neighbor: P12
+  - point: P13
+    angle: -90
+    neighbor: P14
+  - point: P13
+    angle: 180
+    neighbor: P15
+  - point: P14
+    angle: 90
+    neighbor: P13
+  - point: P15
     angle: 0
-    neighbor: 21
-  - point: 20
-    angle: 100
-    neighbor: 18
-  - point: 18
+    neighbor: P13
+  - point: P15
+    angle: -90
+    neighbor: F10
+  - point: P15
+    angle: 180
+    neighbor: P16
+  - point: P16
     angle: 0
-    neighbor: 20
-  - point: 18
-    angle: -50
-    neighbor: 32
-  - point: 18
-    angle: 100
-    neighbor: 17
-  - point: 17
+    neighbor: P15
+  - point: P16
+    angle: 180
+    neighbor: P17
+  - point: P17
     angle: 0
-    neighbor: 18
-  - point: 17
-    angle: -50
-    neighbor: 7
-  - point: 17
-    angle: 100
-    neighbor: 16
-  - point: 16
+    neighbor: P16
+  - point: 
     angle: 0
-    neighbor: 17
-  - point: 16
-    angle: 100
-    neighbor: 15
-  - point: 15
+    neighbor: 
+  - point: 
     angle: 0
-    neighbor: 16
-  - point: 32
-    angle: 100
-    neighbor: 18
+    neighbor: 
+  - point: 
+    angle: 0
+    neighbor: 
+  - point: 
+    angle: 0
+    neighbor: 
+  - point: 
+    angle: 0
+    neighbor: 
+  - point: 
+    angle: 0
+    neighbor: 
 --- !u!4 &1492637176
 Transform:
   m_ObjectHideFlags: 0

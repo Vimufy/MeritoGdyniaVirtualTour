@@ -28,7 +28,7 @@ public class VirtualTour : MonoBehaviour
     public void ShowSpot(string spotNumber)
     {
         currentSpotNumber = spotNumber;
-        Texture2D skyTexture = Resources.Load<Texture2D>("Panoramas/img (" + spotNumber + ")");
+        Texture2D skyTexture = Resources.Load<Texture2D>("Panoramas/" + spotNumber);
         skyMaterial.SetTexture("_MainTex", skyTexture);
 
         foreach (GameObject hotspot in spawnedHotspots)

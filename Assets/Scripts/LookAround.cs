@@ -45,7 +45,7 @@ public class LookAround : MonoBehaviour
             horizontalRotation += delta.x * sensitivity;
             verticalRotation -= delta.y * sensitivity;
             verticalRotation = Mathf.Clamp(verticalRotation, -80f, 80f);
-            transform.rotation = Quaternion.Euler(verticalRotation, horizontalRotation, 0f);
+            transform.rotation = Quaternion.Euler(verticalRotation, horizontalRotation-90f, 0f);
         }
 
         float scroll = mouse.scroll.ReadValue().y;
