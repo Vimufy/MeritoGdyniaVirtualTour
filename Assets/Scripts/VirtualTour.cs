@@ -61,7 +61,10 @@ public class VirtualTour : MonoBehaviour
             if (connection.point != spotNumber) continue;
             Vector3 direction = Quaternion.Euler(0f, connection.angle + 90f, 0f) * Vector3.forward;
             Vector3 position = direction * 4f + Vector3.down * 1.5f;
-            GameObject newHotspot = Instantiate(hotspotPrefab, position, Quaternion.identity);
+            
+            Quaternion rotation = Quaternion.LookRotation(direction, Vector3.up);
+            
+            GameObject newHotspot = Instantiate(hotspotPrefab, position, rotation);
             newHotspot.GetComponent<Hotspot>().target = connection.neighbor;
             spawnedHotspots.Add(newHotspot);
         }

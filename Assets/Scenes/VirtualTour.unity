@@ -636,7 +636,7 @@ MonoBehaviour:
     angle: 180
     neighbor: P15
   - point: P14
-    angle: 90
+    angle: 100
     neighbor: P13
   - point: P15
     angle: 0
