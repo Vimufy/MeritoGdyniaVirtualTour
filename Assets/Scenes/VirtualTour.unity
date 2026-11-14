@@ -488,9 +488,99 @@ MonoBehaviour:
   - point: 29
     angle: 180
     neighbor: 30
-  - point: 30
+  - point: 40
     angle: 0
     neighbor: 29
+  - point: 2
+    angle: 120
+    neighbor: 28
+  - point: 28
+    angle: -50
+    neighbor: 2
+  - point: 2
+    angle: 70
+    neighbor: 27
+  - point: 27
+    angle: 0
+    neighbor: 2
+  - point: 27
+    angle: 100
+    neighbor: 1
+  - point: 1
+    angle: 0
+    neighbor: 27
+  - point: 1
+    angle: 100
+    neighbor: 26
+  - point: 26
+    angle: 0
+    neighbor: 1
+  - point: 26
+    angle: 100
+    neighbor: 25
+  - point: 25
+    angle: 0
+    neighbor: 26
+  - point: 25
+    angle: 100
+    neighbor: 24
+  - point: 24
+    angle: 0
+    neighbor: 25
+  - point: 24
+    angle: -50
+    neighbor: 12
+  - point: 24
+    angle: 100
+    neighbor: 22
+  - point: 22
+    angle: 0
+    neighbor: 24
+  - point: 22
+    angle: 100
+    neighbor: 21
+  - point: 21
+    angle: 0
+    neighbor: 22
+  - point: 21
+    angle: 100
+    neighbor: 20
+  - point: 20
+    angle: 0
+    neighbor: 21
+  - point: 20
+    angle: 100
+    neighbor: 18
+  - point: 18
+    angle: 0
+    neighbor: 20
+  - point: 18
+    angle: -50
+    neighbor: 32
+  - point: 18
+    angle: 100
+    neighbor: 17
+  - point: 17
+    angle: 0
+    neighbor: 18
+  - point: 17
+    angle: -50
+    neighbor: 7
+  - point: 17
+    angle: 100
+    neighbor: 16
+  - point: 16
+    angle: 0
+    neighbor: 17
+  - point: 16
+    angle: 100
+    neighbor: 15
+  - point: 15
+    angle: 0
+    neighbor: 16
+  - point: 32
+    angle: 100
+    neighbor: 18
 --- !u!4 &1492637176
 Transform:
   m_ObjectHideFlags: 0
